@@ -10,7 +10,7 @@ int sequential_search(int a[], int key, int n){
         return -1;   
 }
 
-int main() {
+void main() {
     int i, a[20],key,n,sequential;
     printf("Enter size of an array: ");
     scanf("%d",&n);
@@ -27,5 +27,4 @@ int main() {
     else {
         printf("Element %d found at %d position",key,sequential+1);
     }
-    return 0;
 }
